@@ -147,3 +147,9 @@ form #searchButton{
         width: 40px;
     }
 }
+
+@media screen and (max-width: 290px){
+    form #searchBar{
+        width: 75%;
+    }
+}
