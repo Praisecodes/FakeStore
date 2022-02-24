@@ -108,7 +108,7 @@ form #searchButton{
     font-size: 20px;
     font-weight: lighter;
     color: black;
-    margin-top: 28%;
+    margin-top: 22%;
 }
 
 .product .fa-heart{
@@ -116,7 +116,7 @@ form #searchButton{
     width: 20px;
     height: 20px;
     z-index: 1000;
-    margin: 1% 0 0 80%;
+    margin: 6px 0 0 80%;
 }
 
 @media screen and (max-width: 850px){
