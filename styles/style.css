@@ -111,6 +111,12 @@ form #searchButton{
     margin-top: 35%;
 }
 
+@media screen and (max-width: 850px){
+    form #searchBar{
+        margin: 4% 0 0 2%;
+    }
+}
+
 @media screen and (max-width: 480px){
     .productDiv .products{
         margin: 1% 0 0 0;
@@ -119,6 +125,7 @@ form #searchButton{
     form #searchButton{
         margin: 0 0 0 2%;
     }
+    
     form #searchBar{
         margin: 6% 0 0 2%;
     }
