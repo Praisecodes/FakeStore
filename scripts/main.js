@@ -13,7 +13,7 @@ fetch("https://fakestoreapi.com/products")
 
         let rateArr = [];
         for(var i=0; i<Math.round(rating.rate);i++){
-            rateArr.push("x");
+            rateArr.push("⭐");
         }
         const formattedRating = rateArr.join("");
 
