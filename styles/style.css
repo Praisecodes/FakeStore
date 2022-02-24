@@ -158,6 +158,10 @@ form #searchButton{
         width: 164px;
         margin-top: 20px;
     }
+
+    .product h4{
+        margin-top: 15%;
+    }
 }
 
 @media screen and (max-width: 390px){
