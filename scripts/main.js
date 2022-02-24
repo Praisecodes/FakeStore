@@ -1,6 +1,8 @@
 const products = document.querySelector(".products");
 // Test Fetch API Method
 
+var alertStuff;
+
 fetch("https://fakestoreapi.com/products")
 .then((res)=> res.json())
 .then((data)=>{
@@ -17,12 +19,13 @@ fetch("https://fakestoreapi.com/products")
         }
         const formattedRating = rateArr.join("");
 
-        const productData = `<div class="product" title="${title}">
+        const productData = `<div class="product" id="data${id}" title="${title}">
                                 <img src="${image}" alt="">
                                 <h4>${shortTitle}</h4>
-                                <p>N${nairaPrice} ${formattedRating}</p>
+                                <p>N${nairaPrice}<br/>${formattedRating}</p>
                             </div>`;
 
         products.innerHTML += productData;
+         
     });
 });
