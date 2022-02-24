@@ -123,3 +123,16 @@ form #searchButton{
         margin: 6% 0 0 2%;
     }
 }
+
+@media screen and (max-width: 471px){
+    .productDiv .product{
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .productDiv .product img{
+        height: 164px;
+        width: 164px;
+        margin-top: 20px;
+    }
+}
