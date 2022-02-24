@@ -20,10 +20,10 @@ fetch("https://fakestoreapi.com/products")
         const formattedRating = rateArr.join("");
 
         const productData = `<div class="product" id="data${id}" title="${title}">
-                                <i class="far fa-heart"></i>
                                 <img src="${image}" alt="">
                                 <h4>${shortTitle}</h4>
                                 <p>N${nairaPrice}<br/>${formattedRating}</p>
+                                <i class="far fa-heart"></i>
                             </div>`;
 
         products.innerHTML += productData;
