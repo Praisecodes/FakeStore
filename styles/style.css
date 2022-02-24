@@ -111,6 +111,11 @@ form #searchButton{
     margin-top: 28%;
 }
 
+.product .fa-heart{
+    color: #f35454;
+    z-index: 1000;
+}
+
 @media screen and (max-width: 850px){
     form #searchBar{
         margin: 4% 0 0 2%;
