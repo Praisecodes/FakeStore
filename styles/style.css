@@ -116,6 +116,7 @@ form #searchButton{
     width: 20px;
     height: 20px;
     z-index: 1000;
+    margin: 1% 0 0 80%;
 }
 
 @media screen and (max-width: 850px){
